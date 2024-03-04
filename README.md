@@ -2,6 +2,8 @@
 
 Esta é uma API construída usando o framework Express.js para Node.js e Sequelize com persistência em um banco relacional SQLite. A API simula operações básicas CRUD (Criar, Ler, Atualizar e Excluir) em um banco relacional.
 
+API documentada com a ferramenta Swagger.
+
 ## Requisitos
 
 - Node.js
@@ -45,6 +47,8 @@ A API será executada na porta 3000 por padrão, ou na porta especificada pela v
  - PUT "/products/:id" Atualiza um produto específico com base no ID fornecido.
 
  - DELETE "/products/:id" Exclui um produto específico com base no ID fornecido.
+ 
+ - GET "/api-docs" Exibe a interface gráfica do Swagger UI.
 
 ### 3. Exemplo de Uso
 
